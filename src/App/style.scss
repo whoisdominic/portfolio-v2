@@ -1,0 +1,46 @@
+// imports
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+}
+html {
+  font-family: "Lato", sans-serif;
+}
+body {
+  font-size: 10px;
+}
+// Containers
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 45%;
+  margin: auto;
+  border-radius: 5%;
+  border-color: grey;
+  border-width: 1rem;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 45%;
+  margin: auto;
+  border-radius: 5%;
+  border-color: grey;
+  border-width: 1rem;
+}
+.headings {
+  font-size: 3rem;
+}
+.carousel {
+  height: 200%;
+}
